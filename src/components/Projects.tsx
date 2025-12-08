@@ -5,22 +5,59 @@ import { Button } from "@/components/ui/button";
 const projects = [
   {
     title: "SnapKart",
-    subtitle: "Full-Stack Grocery Delivery Platform",
+    subtitle: "A modern grocery delivery system with real-time order tracking, role-based access, and a seamless shopping experience.",
     year: "2025",
     description:
-      "Complete e-commerce solution with real-time order tracking, role-based authentication, and admin dashboard.",
-    tech: ["Next.js 16", "Auth.js", "Socket.IO", "Cloudinary", "PostgreSQL"],
+      "SnapCart is a production-ready full-stack web application supporting three user roles: Customer, Admin, and Delivery Partner.",
+    tech: ["Next.js 16 (App Router)", "TypeScript", "Tailwind CSS", "Framer Motion","MongoDB", "API Routes", "Socket.IO","Auth.js (NextAuth)", "Google OAuth", "bcryptjs","Leaflet + OpenStreetMap","Vercel","Cloudinary"],
     gradient: "from-primary to-secondary",
     glowColor: "rgba(0,240,255,0.3)",
-    demo: " ",
+    demo: "https://github.com/Shahidshaik999/SnapCart_FullStack_by_shahid ",
     github: "https://github.com/Shahidshaik999/SnapCart_FullStack_by_shahid",
+  },
+  {
+    title: "AI-Research-Paper-Detection",
+    subtitle: "Detect AI-generated content in research PDFs with advanced NLP models",
+    year: "2025",
+    description:
+      "AI Research Paper Detection is a project developed by Shaik Shahid as part of academic AI research. It helps detect whether a research paper contains AI-generated or Human-written text.",
+    tech: ["React + TypeScript, Tailwind CSS", "FastAPI(python)", "PyMuPDF", "Hugging Face Transformers"],
+    gradient: "from-primary to-secondary",
+    glowColor: "rgba(0,240,255,0.3)",
+    demo: "https://github.com/Shahidshaik999/AI-Research-Paper-Detection-by-shahid ",
+    github: "https://github.com/Shahidshaik999/AI-Research-Paper-Detection-by-shahid",
+  },
+
+  {
+    title: "Grammar-Correction-TypePolish",
+    subtitle: "TypePolish – AI Grammar, Tone & Fluency Enhancer",
+    year: "2025",
+    description:
+      "TypePolish is a next-gen English writing improvement tool that uses AI to correct grammar, enhance fluency, adjust tone, and rewrite sentences like a professional human writer — instantly and in real time.",
+    tech: ["React (TypeScript)","Tailwind CSS + Radix UI components","Vite (Fast bundler)","Axios for API calls"," Python 3.10+"," FastAPI","HuggingFace Transformer Model for Smart Rewrite"],
+    gradient: "from-primary to-secondary",
+    glowColor: "rgba(0,240,255,0.3)",
+    demo: "https://github.com/Shahidshaik999/Grammar-Correction-AI-by-shahid ",
+    github: "https://github.com/Shahidshaik999/Grammar-Correction-AI-by-shahid",
+  },
+  {
+    title: " SkillsPark AI – Smart Resume Analyzer ",
+    subtitle: "AI-powered resume analyzer that extracts your skills, infers best-fit tech roles, and generates interview prep – all from a single resume upload.",
+    year: "2025",
+    description:
+      "SkillsPark AI is a full-stack web app that helps students and early-career developers understand their profile from a hiring perspective.",
+    tech: ["React + TypeScript", "Tailwind", "FastAPI(python)", "AI: Google Gemini", "Resume Parsing: PyMuPDF, Regex"],
+    gradient: "from-primary to-secondary",
+    glowColor: "rgba(0,240,255,0.3)",
+    demo: "https://skillspark-ai-by-shahid.vercel.app/ ",
+    github: "https://github.com/Shahidshaik999/skillspark-ai-by-shahid",
   },
   {
     title: "Vibe Matcher",
     subtitle: "AI Product Recommender",
     year: "2025",
     description:
-      "Semantic search engine that converts user 'vibes' into intelligent product recommendations using NLP.",
+      "Vibe Matcher is a lightweight AI recommendation prototype that matches a user’s “vibe” — such as urban chic, boho weekend, or minimalist office — to relevant fashion products.",
     tech: [
       "Sentence Transformers",
       "Cosine Similarity",
@@ -32,18 +69,6 @@ const projects = [
     glowColor: "rgba(128,0,255,0.3)",
     demo: " ",
     github: "https://github.com/Shahidshaik999/Vibe-Matcher-AI-driven-vibe-to-product-recommender",
-  },
-  {
-    title: "Cardiac Disease Assessment",
-    subtitle: "Explainable AI for Healthcare",
-    year: "2025",
-    description:
-      "Multi-model ML system with SHAP/LIME explanations for transparent cardiac disease predictions.",
-    tech: ["Scikit-learn", "SHAP", "LIME", "Random Forest", "Flask", "Pandas"],
-    gradient: "from-accent to-primary",
-    glowColor: "rgba(255,0,128,0.3)",
-    demo: " ",
-    github: " ",
   },
   {
     title: "Gemini Resume Critiquer",
